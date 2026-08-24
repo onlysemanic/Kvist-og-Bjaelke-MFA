@@ -23,7 +23,7 @@ services:
 
   kvist-og-bjaelke-api:
     build:
-      context: ./python-api
+      context: ./api
     container_name: kvist-og-bjaelke-api
     environment:
       DATABASE_PATH: /app/data/app.db
